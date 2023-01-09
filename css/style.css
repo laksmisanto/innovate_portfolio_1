@@ -1,0 +1,629 @@
+/*=============================== 
+Common Css part start 
+===============================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --color: #fff;
+  --btn-color: #8454f5;
+  --text-color: #29313d;
+  --line-color: #ffc556;
+  --nunito: "Nunito", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+}
+button {
+  border: none;
+}
+.theme__btn {
+  font-family: var(--nunito);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 18px;
+  text-transform: capitalize;
+  background: var(--btn-color);
+  color: var(--color);
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.theme__btn:hover {
+  border: 2px solid var(--btn-color);
+  background: transparent;
+  color: var(--btn-color);
+}
+.page__padding {
+  padding: 120px 0;
+}
+.page__title {
+  font-family: var(--open-sans);
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-color);
+  line-height: 140%;
+}
+.text {
+  font-family: var(--nunito);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 200%;
+  margin: 0;
+}
+/*=============================== 
+Common Css part end 
+===============================*/
+
+/*=============================== 
+nav part css start 
+===============================*/
+nav.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  padding-top: 30px;
+  z-index: 999;
+}
+li.nav-item {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--open-sans);
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: var(--btn-color);
+}
+.nav-link i.fa-solid {
+  padding-left: 8px;
+}
+.nav__icon {
+  color: #fff;
+  font-size: 28px;
+}
+/*=============================== 
+nav part css end 
+===============================*/
+
+/*=============================== 
+banner part css start
+===============================*/
+#banner {
+  padding-top: 220px;
+  padding-bottom: 120px;
+}
+h1.banner__title {
+  font-family: var(--open-sans);
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.banner--text--modify {
+  max-width: 516px;
+  margin-top: 40px;
+  margin-bottom: 48px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.banner--text--modify::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--line-color);
+}
+.banner__contact__form {
+  max-width: 76%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(132, 84, 245, 0.3);
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+/*=============================== 
+banner part css end 
+===============================*/
+
+/*=============================== 
+service part css end 
+===============================*/
+
+.service--title--modify {
+  max-width: 564px;
+}
+.service--description--modify {
+  position: relative;
+  padding-left: 20px;
+}
+.service--description--modify::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--line-color);
+}
+.service__cards__container {
+  margin-top: 80px;
+}
+.service--card--modify {
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.service--card--modify:hover {
+  background: var(--btn-color);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+.service--card--modify:hover h4.card__title,
+.service--card--modify:hover p.text,
+.service--card--modify:hover a.service__card__link {
+  color: var(--color);
+}
+.service--card--modify:hover .card__title i.fa-solid {
+  background: rgba(252, 252, 254, 0.15);
+  color: var(--color);
+}
+.service--card--modify p.text {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+h4.card__title {
+  font-family: var(--open-sans);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.card__title i.fa-solid {
+  padding: 10px;
+  background: rgba(254, 196, 95, 0.3);
+  color: #fec35f;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.service__card__link {
+  font-family: var(--nunito);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-bottom: 30px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+/*=============================== 
+service part css end 
+===============================*/
+
+/*=============================== 
+goal part css end 
+===============================*/
+
+/*=============================== 
+goal part css end 
+===============================*/
+
+/*=============================== 
+portfolio part css start 
+===============================*/
+#portfolio {
+  padding-top: 80px;
+}
+.portfolio__nav {
+  background: #dbccfc;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+.portfolio__nav__item {
+  width: 95%;
+  margin: 0 auto;
+}
+.portfolio__nav__item a {
+  font-family: var(--nunito);
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  background: var(--btn-color);
+  color: #fff;
+  border: 2px solid transparent;
+  display: block;
+  padding: 26px 0;
+  text-align: center;
+  border-radius: 18px;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.portfolio__nav__item a:hover {
+  background: transparent;
+  border: 2px solid var(--btn-color);
+  color: var(--btn-color);
+}
+.portfolio--text--modify {
+  max-width: 545px;
+}
+/*=============================== 
+portfolio part css end 
+===============================*/
+
+/*=============================== 
+price part css end 
+===============================*/
+
+.price__header {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 160px;
+}
+.price--title--modify {
+  max-width: 690px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.price__validate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+/* .price__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.price__validate p {
+  font-weight: var(--nunito);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0;
+}
+.price__toggle {
+  width: 70px;
+  height: 40px;
+  margin: 0 20px;
+  border-radius: 20px;
+  background: var(--btn-color);
+  position: relative;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.price__toggle::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.price--card--modify {
+  padding: 48px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.price--card--modify:hover {
+  position: relative;
+  transform: translateY(-80px);
+  color: var(--color);
+  background: #181059;
+  -webkit-transform: translateY(-80px);
+  -moz-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  -o-transform: translateY(-80px);
+}
+.price__card__title {
+  font-family: var(--open-sans);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.card__price__item {
+  padding: 48px 0;
+}
+.card__price__item ul li {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--nunito);
+  font-size: 20px;
+  padding: 14px 0;
+  font-weight: 400;
+  color: #545a64;
+}
+.card__item__cost {
+  font-weight: 700;
+  color: var(--btn-color);
+}
+.price--card--modify:hover .price__card__title,
+.price--card--modify:hover .card__price__item ul li,
+.price--card--modify:hover .card__item__cost {
+  color: var(--color);
+}
+/*=============================== 
+price part css end 
+===============================*/
+
+/*=============================== 
+team part css start 
+===============================*/
+.team--title--modify {
+  max-width: 690px;
+}
+.team__heading {
+  padding-bottom: 90px;
+}
+.team__name {
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+.team__name h3 {
+  font-family: var(--open-sans);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+.team__social__link ul li {
+  margin: 0 13px;
+}
+.team__social__link ul li:first-child {
+  margin-left: 0;
+}
+.team__social__link ul li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color);
+  background: var(--btn-color);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.team__social__link ul li a:hover {
+  background: transparent;
+  border: 2px solid var(--btn-color);
+  color: var(--btn-color);
+}
+.team__slider__btn {
+  margin-top: 56px;
+}
+.slide__btn {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background: var(--btn-color);
+  color: var(--color);
+  border: 2px solid transparent;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.slide__btn:hover {
+  background: transparent;
+  border: 2px solid var(--btn-color);
+  color: var(--btn-color);
+}
+/*=============================== 
+team part css end 
+===============================*/
+
+/*=============================== 
+project submit part css end 
+===============================*/
+.project--title--modify {
+  max-width: 690px;
+  text-align: center;
+}
+.project__submit__area {
+  display: flex;
+  justify-content: center;
+}
+.project--text--modify {
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
+input[type="email"] {
+  font-family: var(--nunito);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  background: #f3eefe;
+  width: 40%;
+  padding: 24px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input[type="email"]:focus {
+  outline: none;
+}
+input[type="email"]::placeholder {
+  text-transform: capitalize;
+}
+/*=============================== 
+project submit part css end 
+===============================*/
+
+/*=============================== 
+footer part css end 
+===============================*/
+#footer {
+  padding-top: 120px;
+  padding-bottom: 10px;
+}
+.footer__logo {
+  padding-bottom: 44px;
+}
+.footer__title {
+  font-family: var(--open-sans);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-bottom: 48px;
+}
+.footer__menu li a {
+  font-family: var(--nunito);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+  padding: 15px 0;
+  display: block;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.footer__menu li a:hover {
+  color: var(--btn-color);
+}
+.footer--text--modify {
+  max-width: 450px;
+}
+.copyright__container {
+  padding-top: 80px;
+}
+.copyright__link {
+  font-family: var(--open-sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.copyright__link:hover {
+  color: var(--btn-color);
+}
+/*=============================== 
+footer part css end 
+===============================*/

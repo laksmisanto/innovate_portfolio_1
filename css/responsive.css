@@ -1,0 +1,496 @@
+/*! 'xxl' applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1400px) {
+  /** large desktops */
+}
+/*! 'xl' applies to large devices (desktop, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* banner part css start */
+  h1.banner__title {
+    font-size: 58px;
+  }
+  /* banner part css start */
+
+  /* service part css start */
+  h4.card__title {
+    font-size: 24px;
+  }
+  /* service part css end */
+
+  /* price part css start */
+  .price__card__title {
+    text-align: center;
+  }
+  .card__price__item {
+    padding: 40px 0;
+  }
+  .card__price__item ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .price__card__button {
+    margin: 0 auto;
+  }
+  /* price part css end */
+
+  /* project submit part css start */
+  .project__submit__area {
+    row-gap: 20px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  /* project submit part css end */
+
+  /* footer part css start */
+
+  .footer__menu li a {
+    font-size: 19px;
+  }
+  .footer__menu li a {
+    padding: 12px 0;
+  }
+
+  /* footer part css end */
+}
+/*! 'lg' applies to medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* common css start */
+  .page__padding {
+    padding: 100px 0;
+  }
+  .page__title {
+    font-size: 50px;
+  }
+  /* common css end */
+
+  /* nav part css start */
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  /* nav part css end */
+
+  /* banner part css start */
+  #banner {
+    padding-bottom: 60px;
+  }
+  h1.banner__title {
+    font-size: 49px;
+    /* text-align: center; */
+  }
+  .banner__contact__form {
+    max-width: 100%;
+  }
+  /* banner part css end */
+
+  /* service part css start */
+  h4.card__title {
+    font-size: 20px;
+  }
+  /* service part css end */
+
+  /* price part css start */
+  .price__card__title {
+    text-align: center;
+  }
+  .price--card--modify {
+    padding: 40px 20px;
+  }
+  .card__price__item {
+    padding: 40px 0;
+  }
+  .card__price__item ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .price__card__button {
+    margin: 0 auto;
+  }
+  .price--card--modify:hover {
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+  }
+  /* price part css end */
+
+  /* team part css start */
+  .team__slider__btn {
+    margin-top: 30px;
+  }
+  /* team part css end */
+
+  /* project submit part css start */
+  .project__submit__area {
+    row-gap: 20px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  /* project submit part css end */
+
+  /* footer part css start */
+  .footer__title {
+    padding-bottom: 16px;
+  }
+  .footer__menu li a {
+    font-size: 16px;
+  }
+  .footer__menu li a {
+    padding: 12px 0;
+  }
+
+  /* footer part css end */
+}
+/*! 'md' applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* common css start */
+  .page__padding {
+    padding: 100px 0;
+  }
+
+  /* common css end */
+  /* nav part css start */
+  nav.navbar {
+    background: #fff7ea;
+  }
+  .nav__icon {
+    color: #8454f5;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    text-align: center;
+  }
+  .nav--btn--modify {
+    margin-bottom: 40px;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  /* nav part css end */
+
+  /* banner part css start */
+  #banner {
+    padding-bottom: 60px;
+  }
+  h1.banner__title {
+    font-size: 64px;
+    text-align: center;
+  }
+  .banner__contact__form {
+    max-width: 100%;
+  }
+  /* banner part css end */
+
+  /* service part css start */
+  h4.card__title {
+    font-size: 23px;
+  }
+  /* service part css end */
+
+  /* price part css start */
+  .price__card__title {
+    text-align: center;
+  }
+  .price--card--modify {
+    padding: 48px;
+  }
+  .card__price__item {
+    padding: 40px 0;
+  }
+  .card__price__item ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .price__card__button {
+    margin: 0 auto;
+  }
+  .price--card--modify:hover {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  /* price part css end */
+
+  /* team part css start */
+  .team__slider__btn {
+    margin-top: 30px;
+  }
+  /* team part css end */
+
+  /* project submit part css start */
+  .project__submit__area {
+    row-gap: 20px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  /* project submit part css end */
+
+  /* footer part css start */
+  .footer__title {
+    padding-bottom: 16px;
+  }
+  .footer__menu li a {
+    padding: 12px 0;
+  }
+  .copyright__left__content,
+  .copyright__right__content {
+    text-align: center;
+  }
+  /* footer part css end */
+}
+/*! 'sm' applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* common css start */
+  .page__padding {
+    padding: 60px 0;
+  }
+  .page__title {
+    font-size: 52px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 200%;
+  }
+
+  /* common css end */
+  /* nav part css start */
+  nav.navbar {
+    background: #fff7ea;
+  }
+  .nav__icon {
+    color: #8454f5;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    text-align: center;
+  }
+  .nav--btn--modify {
+    margin-bottom: 40px;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  /* nav part css end */
+
+  /* banner part css start */
+  #banner {
+    padding-bottom: 60px;
+  }
+  h1.banner__title {
+    font-size: 46px;
+    text-align: center;
+  }
+  .banner__contact__form {
+    max-width: 100%;
+  }
+  /* banner part css end */
+
+  /* service part css start */
+  h4.card__title {
+    font-size: 24px;
+  }
+  .service__card__link {
+    font-size: 16px;
+  }
+  /* service part css end */
+
+  /* price part css start */
+  .price__card__title {
+    text-align: center;
+  }
+  .price--card--modify {
+    padding: 48px;
+  }
+  .card__price__item {
+    padding: 40px 0;
+  }
+  .card__price__item ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .price__card__button {
+    margin: 0 auto;
+  }
+  .price--card--modify:hover {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  /* price part css end */
+
+  /* team part css start */
+  .team__name h3 {
+    font-size: 28px;
+  }
+  .team__slider__btn {
+    margin-top: 30px;
+  }
+  /* team part css end */
+
+  /* project submit part css start */
+  .project__submit__area {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+  /* project submit part css end */
+
+  /* footer part css start */
+  .footer__title {
+    padding-bottom: 16px;
+  }
+  .footer__menu li a {
+    font-size: 15px;
+    padding: 8px 0;
+  }
+  .copyright__left__content,
+  .copyright__right__content {
+    text-align: center;
+  }
+  /* footer part css end */
+}
+/*! 'sx' returns only a ruleset and no media query */
+@media (max-width: 575px) {
+  /* common css start */
+  .page__padding {
+    padding: 60px 0;
+  }
+  .page__title {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 160%;
+  }
+
+  /* common css end */
+
+  /* nav part css start */
+  nav.navbar {
+    background: #fff7ea;
+  }
+  .nav__icon {
+    color: #8454f5;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    text-align: center;
+  }
+  .nav--btn--modify {
+    margin-bottom: 40px;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  /* nav part css end */
+
+  /* banner part css start */
+  #banner {
+    padding-bottom: 60px;
+  }
+  h1.banner__title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .banner__contact__form {
+    max-width: 100%;
+    padding: 12px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner--form--modify {
+    padding-bottom: 20px;
+  }
+  /* banner part css end */
+
+  /* service part css start */
+  h4.card__title {
+    font-size: 20px;
+  }
+  .service__card__link {
+    font-size: 16px;
+  }
+  /* service part css end */
+
+  /* price part css start */
+  .price__card__title {
+    text-align: center;
+  }
+  .price--card--modify {
+    padding: 40px 10px;
+  }
+  .card__price__item {
+    padding: 26px 0;
+  }
+  .card__price__item ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .price__card__button {
+    margin: 0 auto;
+  }
+  .price--card--modify:hover {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  /* price part css end */
+
+  /* team part css start */
+  .team__name h3 {
+    font-size: 28px;
+  }
+  .team__slider__btn {
+    margin-top: 30px;
+  }
+  /* team part css end */
+
+  /* project submit part css start */
+  .project__submit__area {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+  /* project submit part css end */
+
+  /* project submit part css start */
+  .footer__title {
+    padding-bottom: 16px;
+  }
+  .footer__menu li a {
+    font-size: 15px;
+    padding: 8px 0;
+  }
+  .copyright__left__content,
+  .copyright__right__content {
+    text-align: center;
+  }
+  /* project submit part css end */
+}

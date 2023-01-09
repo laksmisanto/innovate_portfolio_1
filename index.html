@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency Portfolio</title>
+    <!-- Others css linked hear -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- custom css links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!--============================== 
+      nav part start 
+    ==============================-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <picture>
+            <img src="images/Logo.png" alt="logo" class="w-100 img-fluid" />
+          </picture>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars nav__icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home<i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >about<i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >service <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >portfolio<i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >price<i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >blog<i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+          </ul>
+          <button class="theme__btn nav--btn--modify">contact us</button>
+        </div>
+      </div>
+    </nav>
+    <!--============================== 
+      nav part end 
+    ==============================-->
+
+    <!--============================== 
+      banner part start 
+    ==============================-->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="banner__content">
+              <h1 class="banner__title">
+                Professional task manager tool to grow
+              </h1>
+              <p class="text banner--text--modify">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime.
+              </p>
+              <div class="banner__contact__form">
+                <p class="text banner--form--modify">
+                  Join with us using your gmail address
+                </p>
+                <button class="theme__btn banner--btn--modify">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="banner__img">
+              <picture>
+                <img
+                  src="images/banner-right.png"
+                  alt="image"
+                  class="w-100 img-fluid"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partners__logo">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/7.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/8.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/9.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/10.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/11.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <picture>
+                <img src="images/12.png" alt="image" class="w-100 img-fluid" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      banner part end 
+    ==============================-->
+
+    <!--============================== 
+      service part start 
+    ==============================-->
+    <section id="service " class="page__padding">
+      <div class="container">
+        <div class="service__header">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="page__title service--title--modify">
+                The best solutions in one tool
+              </h3>
+            </div>
+            <div class="col-lg-6">
+              <p class="text service--description--modify">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus temporibus
+                autem.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="service__cards__container">
+          <div class="row gy-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-clock"></i>
+                  Set Daily Alarms
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  Advanced Search
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-share"></i>
+                  share blog post
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-box-archive"></i>
+                  Archive Content
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-money-check"></i>
+                  Secure Checkout
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto">
+              <div class="card shadow p-3 service--card--modify">
+                <h4 class="card__title">
+                  <i class="fa-solid fa-clock"></i>
+                  Faster Response Time
+                </h4>
+                <p class="text">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere.
+                </p>
+                <a href="#" class="service__card__link pt-3">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      service part end 
+    ==============================-->
+
+    <!--============================== 
+      goal part start 
+    ==============================-->
+    <section id="goal" class="page__padding">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6">
+            <picture>
+              <img
+                src="images/Group 1000007168.png"
+                alt="image"
+                class="w-100 img-fluid"
+              />
+            </picture>
+          </div>
+          <div class="col-lg-6 order-first order-lg-0">
+            <h3 class="page__title">
+              Join with any business tasks and any goals
+            </h3>
+            <p class="text">
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus temporibus
+              autem.
+            </p>
+            <button class="theme__btn mt-5">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      goal part end 
+    ==============================-->
+
+    <!--============================== 
+      portfolio part start 
+    ==============================-->
+    <section id="portfolio">
+      <div class="container">
+        <div class="portfolio__nav py-2">
+          <div class="row gy-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="portfolio__nav__item">
+                <a href="#">Artificial Intelligence</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="portfolio__nav__item">
+                <a href="#">Header Builder</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="portfolio__nav__item">
+                <a href="#">Safe and Private</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="portfolio__nav__item">
+                <a href="#">Mobility Solutions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__container page__padding">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="portfolio__left__img">
+                <picture>
+                  <img
+                    src="images/portfolio.png"
+                    alt="image"
+                    class="w-100 img-fluid"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="col-lg-6 order-first order-lg-0">
+              <h3 class="page__title">No more messy distribution lists.</h3>
+              <p class="text portfolio--text--modify">
+                Install any demo or template with a single click. You can mix
+                and match all the demos & templates. Every demo can be turned
+                into one or multi-page. You can also use the shop features for
+                all demos.
+              </p>
+              <button class="theme__btn mt-5">Get started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      portfolio part end 
+    ==============================-->
+
+    <!--============================== 
+      price part end 
+    ==============================-->
+    <section id="price" class="page__padding">
+      <div class="container">
+        <div class="price__header">
+          <h3 class="page__title price--title--modify">
+            Build the right plan for your team.
+          </h3>
+          <div class="price__validate">
+            <p>Monthly</p>
+            <div class="price__toggle"></div>
+            <p>Yearly</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow price--card--modify">
+              <h4 class="price__card__title">Intro</h4>
+              <div class="card__price__item">
+                <ul>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Hosting
+                    </div>
+                    <div class="card__item__cost">300GB</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Emails
+                    </div>
+                    <div class="card__item__cost">Not Avai.</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Pricing Feature
+                    </div>
+                    <div class="card__item__cost">Unlimited</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Bonus Plugins
+                    </div>
+                    <div class="card__item__cost">Not Avai.</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Exclusive Support
+                    </div>
+                    <div class="card__item__cost">Not Avai.</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="price__card__button">
+                <button class="theme__btn">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow price--card--modify">
+              <h4 class="price__card__title">pro</h4>
+              <div class="card__price__item">
+                <ul>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Hosting
+                    </div>
+                    <div class="card__item__cost">700GB</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Emails
+                    </div>
+                    <div class="card__item__cost">Unlimited</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Pricing Feature
+                    </div>
+                    <div class="card__item__cost">Available</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Bonus Plugins
+                    </div>
+                    <div class="card__item__cost">Included</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Exclusive Support
+                    </div>
+                    <div class="card__item__cost">Yesß</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="price__card__button">
+                <button class="theme__btn">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="card shadow price--card--modify">
+              <h4 class="price__card__title">Exclusive</h4>
+              <div class="card__price__item">
+                <ul>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Hosting
+                    </div>
+                    <div class="card__item__cost">900GB</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Emails
+                    </div>
+                    <div class="card__item__cost">Unlimited</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Pricing Feature
+                    </div>
+                    <div class="card__item__cost">Available</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Bonus Plugins
+                    </div>
+                    <div class="card__item__cost">Available</div>
+                  </li>
+                  <li>
+                    <div class="card__item__name">
+                      <i class="fa-regular fa-square-check pe-2"></i>
+                      Exclusive Support
+                    </div>
+                    <div class="card__item__cost">Available</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="price__card__button">
+                <button class="theme__btn">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      price part end 
+    ==============================-->
+
+    <!--============================== 
+      team part end 
+    ==============================-->
+    <section id="team" class="page__padding">
+      <div class="container">
+        <div class="team__heading">
+          <h3 class="page__title team--title--modify">
+            Build the right plan for your team.
+          </h3>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-9">
+            <div class="row align-items-center gy-4">
+              <div class="col-md-6">
+                <div class="team__left__img">
+                  <picture>
+                    <img
+                      src="images/team.png"
+                      alt="image"
+                      class="w-100 img-fluid"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="team__content">
+                  <p class="text">
+                    As a leading digital platform in Paris, we look to engage
+                    with our clients beyond the conventional design and
+                    development agency relationship, becoming a partner to the
+                    people and companies we work with.
+                  </p>
+                  <div class="team__info">
+                    <div class="team__name">
+                      <h3>Jonathon</h3>
+                    </div>
+                    <div class="team__social__link">
+                      <ul class="d-flex">
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="team__slider__btn">
+                  <button class="slide__btn me-4">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="slide__btn">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mx-auto">
+            <picture>
+              <img src="images/Users.png" alt="image" class="w-100 img-fluid" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      team part end 
+    ==============================-->
+
+    <!--============================== 
+      project trial part end 
+    ==============================-->
+    <section id="project__trial" class="page__padding">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-center">
+          <h3 class="page__title project--title--modify">
+            Ready to get started? Start your free trial.
+          </h3>
+          <p class="text text-center project--text--modify">
+            Free 30 days trial | Exclusive Support | No Fees
+          </p>
+          <form action="" class="project__submit__area">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" class="theme__btn ms-md-4">
+              Try for free
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--============================== 
+      project trial part end 
+    ==============================-->
+
+    <!--============================== 
+      footer part end 
+    ==============================-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="footer__left__content">
+              <div class="footer__logo">
+                <picture>
+                  <img src="images/Logo.png" alt="image" />
+                </picture>
+              </div>
+              <p class="text footer--text--modify">
+                Install any demo or template with a single click. You can mix
+                and match all the demos & templates. Every demo can be turned
+                into one or multi-page.
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="footer__extra__link">
+              <h2 class="footer__title">Features</h2>
+              <ul class="footer__menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">Benifit</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="footer__extra__link">
+              <h2 class="footer__title">Products</h2>
+              <ul class="footer__menu">
+                <li><a href="#">Task Management</a></li>
+                <li><a href="#">Company growth</a></li>
+                <li><a href="#">Time tracking</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mx-auto">
+            <div class="footer__extra__link">
+              <h2 class="footer__title">Support</h2>
+              <ul class="footer__menu">
+                <li><a href="#">Customer service</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright__container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copyright__left__content">
+                <p class="text">&copy;20201 Innovate.All rights reserved.</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-end">
+              <div class="copyright__right__content">
+                <a href="#" class="copyright__link me-4">Privacy policy</a>
+                <a href="#" class="copyright__link">Terms & condition</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--============================== 
+      footer part end 
+    ==============================-->
+
+    <!-- Others javascript sorce link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom javascript sorce link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
